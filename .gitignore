@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.mypy_cache/
+
+# User-specific settings and authentication files.
+config.local.toml
+config.toml
+*.local.toml
+.env
+.env.*
+!.env.example
+hosts.yml
+credentials
+*.pem
+*.key
+
+# Runtime data, queued private edits, and editor drafts.
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+data/
+drafts/
+logs/
+*.log
+*.bak
+*.backup
+.DS_Store
+
+# Generated source archives and build artifacts.
+dist/
+build/
+*.egg-info/

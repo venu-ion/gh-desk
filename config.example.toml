@@ -1,0 +1,15 @@
+# Optional personal settings. Copy to config.local.toml (ignored by Git).
+# Keep credentials in GitHub CLI: gh auth login
+# Do not add tokens, passwords, or private issue content to this file.
+
+# Default: the account selected in gh.
+# owner = "octocat"
+
+# Optional starting repository. Otherwise gh-desk opens the repository list.
+# repo = "octocat/hello-world"
+
+limit = 100
+offline = false
+
+# Default: $XDG_DATA_HOME/gh-desk or ~/.local/share/gh-desk.
+# data_dir = "~/.local/share/gh-desk"
